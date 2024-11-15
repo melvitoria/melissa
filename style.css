@@ -1,0 +1,72 @@
+:root{
+    --cor-principal:#6C9D88;/*amarelo*/
+    --cor-secundaria:#DAD9BA;/*azul*/
+    --cor-terciaria:#F3E2CE;/*laranja*/
+    --cor-fundo:#E8B6AB;/*cinza claro*/
+    --cor-texto:#EE8D96;/*texto escuro*/
+}
+
+body{
+    font-family:arial,sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height:1.5;
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+}
+
+header-image {
+    width: 50%;
+    height: auto;
+    background: size 50px;
+}
+
+img{
+    width: 25%;
+    margin:auto;
+    display: block;
+}
+
+nav{
+    background-color: var(--cor-secundario);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+}
+
+nave li {
+    display:inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+playlist {
+    margin-top: 20px;
+}
+
+footer {
+    text-align:center;
+    padding: 20px;
+    background-color: var(--cor-terciaria);
+    color:whiter;
+}
